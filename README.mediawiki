@@ -1,4 +1,4 @@
-People wishing to submit BIPs, first should propose their idea or document to the mailing list. After discussion they should email Luke Dashjr &lt;luke_bipeditor@dashjr.org&gt;. After copy-editing and acceptance, it will be published here.
+People wishing to submit BIPs, first should propose their idea or document to the [https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-dev bitcoin-dev@lists.linuxfoundation.org] mailing list. After discussion, please open a PR. After copy-editing and acceptance, it will be published here.
 
 We are fairly liberal with approving BIPs, and try not to be too involved in decision making on behalf of the community. The exception is in very rare cases of dispute resolution when a decision is contentious and cannot be agreed upon. In those cases, the conservative option will always be preferred.
 
@@ -407,6 +407,13 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Standard
 | Draft
 |-
+| [[bip-0084.mediawiki|84]]
+| Applications
+| Derivation scheme for P2WPKH based accounts
+| Pavol Rusnak
+| Informational
+| Draft
+|-
 | [[bip-0090.mediawiki|90]]
 | Consensus (hard fork)
 | Buried Deployments
@@ -420,6 +427,13 @@ Those proposing changes should consider that ultimately consent may rest with th
 | James Hilliard
 | Standard
 | Final
+|-
+| [[bip-0098.mediawiki|98]]
+| Consensus (soft fork)
+| Fast Merkle Trees
+| Mark Friedenbach, Kalle Alm, BtcDrak
+| Standard
+| Draft
 |-
 | [[bip-0099.mediawiki|99]]
 |
@@ -516,6 +530,20 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Consensus (soft fork)
 | Generic anti-replay protection using Script
 | Luke Dashjr
+| Standard
+| Draft
+|-
+| [[bip-0116.mediawiki|116]]
+| Consensus (soft fork)
+| MERKLEBRANCHVERIFY
+| Mark Friedenbach, Kalle Alm, BtcDrak
+| Standard
+| Draft
+|-
+| [[bip-0117.mediawiki|117]]
+| Consensus (soft fork)
+| Tail Call Execution Semantics
+| Mark Friedenbach, Kalle Alm, BtcDrak
 | Standard
 | Draft
 |-
@@ -616,41 +644,41 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Christian Decker
 | Standard
 | Draft
-|-
+|- style="background-color: #ffffcf"
 | [[bip-0141.mediawiki|141]]
 | Consensus (soft fork)
 | Segregated Witness (Consensus layer)
 | Eric Lombrozo, Johnson Lau, Pieter Wuille
 | Standard
-| Draft
-|-
+| Proposed
+|- style="background-color: #ffcfcf"
 | [[bip-0142.mediawiki|142]]
 | Applications
 | Address Format for Segregated Witness
 | Johnson Lau
 | Standard
-| Deferred
-|-
+| Withdrawn
+|- style="background-color: #ffffcf"
 | [[bip-0143.mediawiki|143]]
 | Consensus (soft fork)
 | Transaction Signature Verification for Version 0 Witness Program
 | Johnson Lau, Pieter Wuille
 | Standard
-| Draft
-|-
+| Proposed
+|- style="background-color: #ffffcf"
 | [[bip-0144.mediawiki|144]]
 | Peer Services
 | Segregated Witness (Peer Services)
 | Eric Lombrozo, Pieter Wuille
 | Standard
-| Draft
-|-
+| Proposed
+|- style="background-color: #cfffcf"
 | [[bip-0145.mediawiki|145]]
 | API/RPC
 | getblocktemplate Updates for Segregated Witness
 | Luke Dashjr
 | Standard
-| Draft
+| Final
 |-
 | [[bip-0146.mediawiki|146]]
 | Consensus (soft fork)
@@ -658,13 +686,13 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Johnson Lau, Pieter Wuille
 | Standard
 | Draft
-|-
+|- style="background-color: #ffffcf"
 | [[bip-0147.mediawiki|147]]
 | Consensus (soft fork)
 | Dealing with dummy stack element malleability
 | Johnson Lau
 | Standard
-| Draft
+| Proposed
 |- style="background-color: #cfffcf"
 | [[bip-0148.mediawiki|148]]
 | Consensus (soft fork)
@@ -708,9 +736,23 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Standard
 | Draft
 |-
+| [[bip-0157.mediawiki|157]]
+| Peer Services
+| Client Side Block Filtering
+| Olaoluwa Osuntokun, Alex Akselrod, Jim Posen
+| Standard
+| Draft
+|-
+| [[bip-0158.mediawiki|158]]
+| Peer Services
+| Compact Block Filters for Light Clients
+| Olaoluwa Osuntokun, Alex Akselrod
+| Standard
+| Draft
+|-
 | [[bip-0159.mediawiki|159]]
 | Peer Services
-| NODE_NETWORK_LIMITED service bits
+| NODE_NETWORK_LIMITED service bit
 | Jonas Schnelli
 | Standard
 | Draft
@@ -721,11 +763,32 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Luke Dashjr
 | Standard
 | Draft
-|-
+|- style="background-color: #ffffcf"
 | [[bip-0173.mediawiki|173]]
 | Applications
 | Base32 address format for native v0-16 witness outputs
 | Pieter Wuille, Greg Maxwell
+| Informational
+| Proposed
+|-
+| [[bip-0174.mediawiki|174]]
+| Applications
+| Partially Signed Bitcoin Transaction Format
+| Andrew Chow
+| Standard
+| Draft
+|-
+| [[bip-0175.mediawiki|175]]
+| Applications
+| Pay to Contract Protocol
+| Omar Shibli, Nicholas Gregory
+| Informational
+| Draft
+|-
+| [[bip-0176.mediawiki|176]]
+|
+| Bits Denomination
+| Jimmy Song
 | Informational
 | Draft
 |-
