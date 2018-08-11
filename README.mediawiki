@@ -223,13 +223,13 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Marek Palatinus
 | Standard
 | BIP number allocated
-|-
+|-style="background-color: #cfffcf"
 | [[bip-0042.mediawiki|42]]
 | Consensus (soft fork)
 | A finite monetary supply for Bitcoin
 | Pieter Wuille
 | Standard
-| Draft
+| Final
 |-
 | [[bip-0043.mediawiki|43]]
 | Applications
@@ -415,7 +415,7 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Draft
 |-
 | [[bip-0090.mediawiki|90]]
-| Consensus (hard fork)
+|
 | Buried Deployments
 | Suhas Daftuar
 | Informational
@@ -544,6 +544,13 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Consensus (soft fork)
 | Tail Call Execution Semantics
 | Mark Friedenbach, Kalle Alm, BtcDrak
+| Standard
+| Draft
+|-
+| [[bip-0118.mediawiki|118]]
+| Consensus (soft fork)
+| SIGHASH_NOINPUT
+| Christian Decker
 | Standard
 | Draft
 |- style="background-color: #ffcfcf"
@@ -763,20 +770,20 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Luke Dashjr
 | Standard
 | Draft
-|- style="background-color: #ffffcf"
+|- style="background-color: #cfffcf"
 | [[bip-0173.mediawiki|173]]
 | Applications
 | Base32 address format for native v0-16 witness outputs
 | Pieter Wuille, Greg Maxwell
 | Informational
-| Proposed
-|-
+| Final
+|- style="background-color: #ffffcf"
 | [[bip-0174.mediawiki|174]]
 | Applications
 | Partially Signed Bitcoin Transaction Format
 | Andrew Chow
 | Standard
-| Draft
+| Proposed
 |-
 | [[bip-0175.mediawiki|175]]
 | Applications
@@ -790,6 +797,13 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Bits Denomination
 | Jimmy Song
 | Informational
+| Draft
+|-
+| [[bip-0178.mediawiki|178]]
+| Applications
+| Version Extended WIF
+| Karl-Johan Alm
+| Standard
 | Draft
 |-
 | [[bip-0180.mediawiki|180]]
